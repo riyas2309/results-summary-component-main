@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.container {
+  position: absolute;
+  background: whitesmoke;
+  width: 50%;
+  display: inline-flex;
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%);
+  border-radius: 2vh;
+  overflow: auto;
+}
+.inner-container-blue {
+  background: rgb(97, 20, 250);
+  background: linear-gradient(
+    180deg,
+    rgba(97, 20, 250, 1) 36%,
+    rgba(73, 0, 242, 1) 69%,
+    rgba(43, 0, 232, 1) 100%
+  );
+  width: 50%;
+  height: 100%;
+  border-radius: 2vh;
+  color: white;
+}
+.heading {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: x-large;
+  color: rgb(215, 201, 255);
+}
+.circle {
+  background: #4300deff;
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.marks {
+  display: flex;
+  text-align: center;
+  font-size: 4rem;
+  justify-content: center;
+  padding-top: 3vh;
+}
+.total-marks {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 1000;
+  color: #866effff;
+  margin-top: -5%;
+}
+.great {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.text {
+  text-align: center;
+  padding: 1rem 3rem;
+  padding-bottom: 3rem;
+}
+.heading2 {
+  margin-left: 2rem;
+  font-size: x-large;
+  color: black;
+  padding-top: 2rem;
+}
+.emotions {
+  margin-top: 15%;
+}
+.em {
+  display: flex;
+  font-size: larger;
+  font-weight: 700;
+}
+.emotion1 {
+  color: #ff8086ff;
+  background: rgb(255, 227, 224);
+  /* background: black; */
+  transform: translateX(-25%);
+  border-radius: 1rem;
+  /* width: 300%;
+  text-align: center;
+  align-items: center;
+  transform: translateX(-38%); */
+}
+.em-text {
+  padding: 0.75rem 3rem;
+}
